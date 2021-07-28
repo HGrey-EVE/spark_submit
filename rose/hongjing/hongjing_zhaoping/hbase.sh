@@ -1,0 +1,1 @@
+nohup /opt/anaconda3/bin/python hongjing_zhaoping_hbase.py > hbase.log &

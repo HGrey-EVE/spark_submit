@@ -1,0 +1,2 @@
+curday=`date -d "last month" +%Y%m`
+nohup /opt/anaconda3/bin/python /data6/scjxt/jxt_code/spark_plan_zero/stone/src/whetstone/main.py -p jingxinting -m biz_enterprise_monitor -t enterprise_dev_index -v $curday -d -e dev > enterprise_monitor_debug.log 2>&1 &

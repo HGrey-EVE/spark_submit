@@ -1,0 +1,1 @@
+nohup /opt/anaconda3/bin/python /data4/hongjing/lefeng/spark_plan_zero/stone/src/whetstone/main.py -p hongjing -m hongjing_zhaoping -t hongjing_zhaoping_index -e dev -d > index.log &

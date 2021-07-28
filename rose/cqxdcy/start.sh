@@ -1,0 +1,1 @@
+nohup /opt/anaconda3/bin/python main.py > start.log &

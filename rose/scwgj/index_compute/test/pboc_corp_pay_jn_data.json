@@ -1,0 +1,13 @@
+{"corp_code": "5393225", "tx_amt_usd": 500, "pay_date": "2021-05-01", "tx_code": "121010", "rptno": 1, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "5393225", "tx_amt_usd": 500, "pay_date": "2021-05-01", "tx_code": "121010", "rptno": 1, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "5393225", "tx_amt_usd": 500, "pay_date": "2021-05-01", "tx_code": "121010", "rptno": 1, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "8290591", "tx_amt_usd": 600, "pay_date": "2021-04-01", "tx_code": "121020", "rptno": 2, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "8290591", "tx_amt_usd": 600, "pay_date": "2021-04-01", "tx_code": "121020", "rptno": 2, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "21712617", "tx_amt_usd": 700, "pay_date": "2021-03-01", "tx_code": "121030", "rptno":3, "rcvpay_attr_code": "A", "tx_ccy_code": "USD"}
+{"corp_code": "21712617", "tx_amt_usd": 700, "pay_date": "2021-03-01", "tx_code": "121030", "rptno":3, "rcvpay_attr_code": "B", "tx_ccy_code": "USD"}
+{"corp_code": "50050276", "tx_amt_usd": 800, "pay_date": "2021-02-01", "tx_code": "121080", "rptno": 4, "rcvpay_attr_code": "B", "tx_ccy_code": "CNY"}
+{"corp_code": "50050348", "tx_amt_usd": 900, "pay_date": "2021-01-01", "tx_code": "121090", "rptno": 5, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "50050866", "tx_amt_usd": 1000, "pay_date": "2021-05-15", "tx_code": "121990", "rptno": 6, "rcvpay_attr_code": "B", "tx_ccy_code": "FRI"}
+{"corp_code": "50050997", "tx_amt_usd": 1100, "pay_date": "2020-12-01", "tx_code": "120010", "rptno": 7, "rcvpay_attr_code": "A", "tx_ccy_code": "CNY"}
+{"corp_code": "50051180", "tx_amt_usd": null, "pay_date": "2020-12-01", "tx_code": "120010", "rptno": 8, "rcvpay_attr_code": "B", "tx_ccy_code": "CNY"}
+{"corp_code": "50051842", "tx_amt_usd": null, "pay_date": "2020-12-01", "tx_code": "120010", "rptno": 9, "rcvpay_attr_code": "A", "tx_ccy_code": "HKD"}

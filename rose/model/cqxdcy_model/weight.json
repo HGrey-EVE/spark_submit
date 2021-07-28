@@ -1,0 +1,65 @@
+{
+    "fisrt_class_weight": {
+        "zsjz": {
+            "ns_ability_score": 0.25,
+            "zz_score": 0.15,
+            "create_ability_score": 0.3,
+			"rcgx_score": 0.2,
+            "yq_score": 0.1
+        },
+        "zskxx": {
+            "hyqspg_score": 0.25,
+            "ysxfx_score": 0.25,
+            "nlxpg_score": 0.3,
+            "qyxwx_score": 0.2
+        },
+        "kjxczxqypf": {
+            "hxjsqk_score": 0.2,
+            "yfnlqk_score": 0.2,
+            "yfscrkqk_score": 0.2,
+            "xdjzysqk_score": 0.2,
+            "jscgzhqk_score": 0.2
+        }
+    },
+    "second_class_weight": {
+        "ns_ability_score": {
+            "zhss_3years_score": 0.5,
+            "zhsl_score": 0.5
+        },
+        "zz_score": {
+            "company_zzzl_score": 0.5,
+            "company_zzsl_score": 0.5
+        },
+        "create_ability_score": {
+            "sb_num_score": 0.25,
+            "rz_num_score": 0.25,
+            "zl_score": 0.25,
+            "sp_score": 0.25
+        },
+        "rcgx_score": {
+            "gxlbl_score": 1
+        },		
+        "yq_score": {
+            "yq_num_score": 0.5,
+            "rylxx_score": 0.5
+        },
+        "hyqspg_score": {
+            "sccykj_score": 0.65,
+            "hyjz_score": 0.35
+        },
+        "ysxfx_score": {
+            "qybj_score": 0.5,
+            "khsc_score": 0.5
+        },
+        "nlxpg_score": {
+            "ylnl_score": 0.25,
+            "nsnl_score": 0.25,
+            "yfnl_score": 0.25,
+            "tdnl_score": 0.25
+        },
+        "qyxwx_score": {
+            "tzph_score": 0.5,
+            "tzhyd_score": 0.5
+        }
+    }
+}

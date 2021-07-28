@@ -1,0 +1,5 @@
+/opt/anaconda3/bin/python /data8/hakcredit/scwgj/spark_plan_zero/stone/src/whetstone/main.py -p scwgj -m graph_subject_data -t test.test_process -v 202104 -d -e test
+
+/opt/anaconda3/bin/python /data8/hakcredit/scwgj/spark_plan_zero/stone/src/whetstone/main.py -p scwgj -m graph_subject_data -t test.test_process -v 202105 -d -e test
+
+/opt/anaconda3/bin/python /data8/hakcredit/scwgj/spark_plan_zero/stone/src/whetstone/main.py -p scwgj -m graph_subject_data -t test.test_process -v 202106 -d -e test

@@ -1,0 +1,1 @@
+nohup python3 ~/spark_plan_zero/whetstone/src/whetstone/main.py -p yunjian -m yunjian_req_9 -t yunjian_req_9 -e dev -d &

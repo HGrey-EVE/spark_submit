@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+@Copyright: 2021 , BBD Tech. Co. Ltd
+@Time: 2021/6/7 : 15:32
+@Author: wenhao@bbdservice.com
+"""
+from whetstone.core.entry import Entry
+from whetstone.core.index import Parameter, register
+
+
+@register(name="black_isneg",
+          persistent="parquet",
+          persistent_param={"mode": "overwrite"},
+          dependencies=["target_company_v",
+                        "negative_list_v"])
+def black_isneg(entry: Entry, param: Parameter, logger):
+
+    # 是否是负面主体
+    sql_str = """
+                select a.bbd_company_name as company_name, 
+                    a.corp_code,
+                    case when b.corp_code is not null then 1
+                         else 0 
+                    end black_isneg
+                from target_company_v a
+                left join negative_list_v b
+                on a.corp_code = b.corp_code
+              """
+    result_df = execute_index_sql(entry, sql_str, logger)
+
+    return result_df
+
+
+def execute_index_sql(entry: Entry, sql_str: str, logger):
+    logger.info(sql_str)
+    result_df = entry.spark.sql(sql_str)
+    return result_df
+
+

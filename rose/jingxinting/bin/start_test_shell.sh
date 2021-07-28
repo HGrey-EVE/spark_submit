@@ -1,0 +1,1 @@
+/opt/spark-2.4.0/bin/spark-shell --master yarn --deploy-mode client --name JINGXINTING_TEST --driver-memory 20g --driver-cores 6 --executor-memory 6g --executor-cores 1 --num-executors 10 --conf spark.debug.maxToStringFields=1000 --queue projects.scjxt
