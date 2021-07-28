@@ -1,0 +1,9 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+spark = "2.4.7"
+
+[dev-packages]
