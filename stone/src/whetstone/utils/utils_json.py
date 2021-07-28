@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import json
+from datetime import datetime,date
+
+class DateEncoder(json.JSONEncoder):
+
+    def default(self, obj):
+        if isinstance(obj, datetime):
+            return obj.strftime('%Y-%m-%d %H:%M:%S')
+        elif isinstance(obj, date):
+            return obj.strftime('%Y-%m-%d')
+        else:
+            return json.JSONEncoder.default(self, obj)
+
+class JsonUtils:
+
+    @staticmethod
+    def toObject(objStr):
+        """
+        json转对象
+        :return:
+        """
+        try:
+            return json.loads(objStr)
+        except Exception as ex:
+            pass
+        return None
+
+    def toString(obj):
+        """
+        将 list ，map 转化为 json 字符串
+        :param s:
+        :return:
+        """
+        return json.dumps(obj, ensure_ascii=False, cls=DateEncoder)
+
+if __name__ == '__main__':
+    pass
